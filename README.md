@@ -1,4 +1,4 @@
-# ZSH Customization
+# ZSH Shell Customization
 
 ## About
 
@@ -10,6 +10,10 @@ This is what I made this ´.zshrc´ for.
 ## Install
 
 Just install or append this file to your current ´.zshrc´ and adapt it to your needs. It is heavyly documented so that shouldn't be a problem.
+
+## Requisites
+
+If you are on MacOSX, then you should be at least on Catalina, because that is the version Apple started using zsh. Even though, if you have updated from a previcous version, chances are that you still run bash. You can update to zsh running `chsh -s /bin/zsh`
 
 ## Customization
 
