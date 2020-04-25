@@ -5,6 +5,8 @@
 I absolutely love Oh-My-ZSH, but on systems that should stay rather pristine I dislike installing it.
 This is what I made this ´.zshrc´ for.
 
+![Terminal](images/screenshot.png)
+
 ## Install
 
 Just install or append this file to your current ´.zshrc´ and adapt it to your needs. It is heavyly documented so that shouldn't be a problem.
