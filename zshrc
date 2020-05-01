@@ -35,7 +35,7 @@ preexec () {
 #Executed before each prompt. Note that precommand functions are not re-executed simply because the command line is redrawn, as happens, for example, when a notification about an exiting job is displayed.
 precmd () {
 
-    # Proceed only if we've ran a command in the current shell.
+    # Proceed only if we've run a command in the current shell.
     if ! [[ -z $CMD_START_DATE ]]; then
 
         # Note current date in unix time
@@ -83,6 +83,7 @@ RPROMPT="%(?.%F{10}✓%f.%F{9}⚠%f%?) 🕒 %T"
 alias cls="clear && ls -lG"
 alias clsh="clear && ls -lahG"
 alias ip="curl icanhazip.com"
+
 
 
 #Define LS Colors
